@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BankingSystem.CustomerControl">
+   <children>
+      <Button layoutX="197.0" layoutY="65.0" mnemonicParsing="false" onAction="#summaryOfHisAccount" prefHeight="43.0" prefWidth="191.0" text="Summary of his/her account" />
+      <Button layoutX="197.0" layoutY="143.0" mnemonicParsing="false" onAction="#TransactionOfHisAccount" prefHeight="43.0" prefWidth="191.0" text="Transaction of his account" />
+      <Button layoutX="205.0" layoutY="300.0" mnemonicParsing="false" onAction="#Home" prefHeight="43.0" prefWidth="191.0" text="Home" />
+      <Button layoutX="205.0" layoutY="220.0" mnemonicParsing="false" onAction="#DisplayOfHisAllAccount" prefHeight="43.0" prefWidth="191.0" text="Display all his account" />
+   </children>
+</AnchorPane>

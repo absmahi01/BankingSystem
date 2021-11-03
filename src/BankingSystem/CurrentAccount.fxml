@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BankingSystem.CurrentAccountController">
+   <children>
+      <AnchorPane layoutX="-214.0" layoutY="-111.0" prefHeight="684.0" prefWidth="998.0">
+         <children>
+            <Label layoutX="579.0" layoutY="214.0" text="Welcome to DBBL">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="464.0" layoutY="301.0" text="Enter your name:" />
+            <Label layoutX="464.0" layoutY="383.0" prefHeight="18.0" prefWidth="109.0" text="Enter your NID:" />
+            <Label layoutX="431.0" layoutY="455.0" prefHeight="18.0" prefWidth="123.0" text="Trade License Number:" />
+            <Label layoutX="445.0" layoutY="549.0" prefHeight="18.0" prefWidth="109.0" text="Account Balance:" />
+            <TextField fx:id="name" layoutX="595.0" layoutY="284.0" prefHeight="50.0" prefWidth="206.0" />
+            <TextField fx:id="nid" layoutX="595.0" layoutY="367.0" prefHeight="50.0" prefWidth="213.0" />
+            <TextField fx:id="licenseNum" layoutX="604.0" layoutY="439.0" prefHeight="50.0" prefWidth="213.0" />
+            <TextField fx:id="balance" layoutX="604.0" layoutY="524.0" prefHeight="50.0" prefWidth="213.0" />
+            <Button layoutX="616.0" layoutY="596.0" mnemonicParsing="false" onAction="#addMember" text="Add Member">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button layoutX="449.0" layoutY="609.0" mnemonicParsing="false" onAction="#Back" prefHeight="25.0" prefWidth="102.0" text="Back" />
+         </children>
+      </AnchorPane>
+      <ListView fx:id="listView" layoutX="94.0" layoutY="554.0" prefHeight="70.0" prefWidth="569.0" />
+   </children>
+</AnchorPane>

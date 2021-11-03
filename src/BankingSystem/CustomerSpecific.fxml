@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BankingSystem.customerSpecificControl">
+   <children>
+      <TextField fx:id="accNumTF" layoutX="494.0" layoutY="107.0" prefHeight="39.0" prefWidth="199.0" />
+      <Label layoutX="193.0" layoutY="109.0" prefHeight="35.0" prefWidth="283.0" text="Enter Account Number :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="413.0" layoutY="180.0" mnemonicParsing="false" onAction="#fndAccount" text="Single Display">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="846.0" layoutY="552.0" mnemonicParsing="false" onAction="#Back1" prefHeight="35.0" prefWidth="84.0" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="SingleTF" layoutX="40.0" layoutY="369.0" onDragDetected="#Back1" onMouseClicked="#fndAccount" prefHeight="114.0" prefWidth="908.0" textFill="#eb0505">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

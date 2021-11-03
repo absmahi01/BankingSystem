@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BankingSystem.LoginConrol">
+   <children>
+      <Pane layoutX="214.0" layoutY="34.0" prefHeight="86.0" prefWidth="635.0">
+         <children>
+            <Text fill="#296538" fontSmoothingType="LCD" layoutX="144.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banking System" textAlignment="JUSTIFY" wrappingWidth="347.74212646484375">
+               <font>
+                  <Font size="47.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="300.0" layoutY="204.0" prefHeight="394.0" prefWidth="483.0" style="-fx-background-color: &quot;white&quot;; -fx-border-radius: 400px;">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="117.0" layoutX="183.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@laptop.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="143.0" layoutY="146.0" mnemonicParsing="false" onAction="#loginAsEmployee" prefHeight="25.0" prefWidth="198.0" style="-fx-border-radius: 30px;" text="Login As Employee" textFill="#9c15db">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="143.0" layoutY="185.0" mnemonicParsing="false" onAction="#loginAsCustomer" prefHeight="25.0" prefWidth="198.0" text="Login As Customer" textFill="#9c15db">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="31.0" fitWidth="52.0" layoutX="102.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@broker.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="52.0" layoutX="102.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@teamwork.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

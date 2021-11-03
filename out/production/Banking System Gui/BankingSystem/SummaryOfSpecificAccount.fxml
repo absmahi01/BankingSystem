@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BankingSystem.EmployeeSummaryOfSpecificAccount">
+   <children>
+      <TextField fx:id="accNumTF" layoutX="484.0" layoutY="97.0" prefHeight="39.0" prefWidth="199.0" />
+      <Label layoutX="183.0" layoutY="99.0" prefHeight="35.0" prefWidth="283.0" text="Enter Account Number :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="403.0" layoutY="170.0" mnemonicParsing="false" onAction="#fndAccount" text=" Display">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="836.0" layoutY="542.0" mnemonicParsing="false" onAction="#Back" prefHeight="35.0" prefWidth="84.0" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="SingleTF" layoutX="30.0" layoutY="359.0" onMouseClicked="#fndAccount" prefHeight="114.0" prefWidth="908.0" textFill="#0726eb">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

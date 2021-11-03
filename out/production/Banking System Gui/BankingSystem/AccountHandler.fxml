@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BankingSystem.AccountHandler">
+    <children>
+      <Text layoutX="319.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To DBBL">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button layoutX="393.0" layoutY="269.0" mnemonicParsing="false" onAction="#CurrentAccountHandler" prefHeight="40.0" prefWidth="135.0" text="Current Account">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="393.0" layoutY="195.0" mnemonicParsing="false" onAction="#SavingsAccountHandler" prefHeight="40.0" prefWidth="135.0" text="Savings Account">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="394.0" layoutY="350.0" mnemonicParsing="false" onAction="#StudentsAccountHandler" prefHeight="40.0" prefWidth="135.0" text="Student Account">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="394.0" layoutY="435.0" mnemonicParsing="false" onAction="#Back" prefHeight="40.0" prefWidth="143.0" text="Back" />
+    </children>
+</AnchorPane>
